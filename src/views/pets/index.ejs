@@ -13,7 +13,7 @@
   <tbody>
     <% pets.forEach(function(pet) { %>
     <tr>
-      <td class="pet-name" data-id="<%= pet.pet_id %>"><%= pet.name %></td>
+      <td class="pet-name" data-id="<%= pet.pet_id %>"><%= pet.pet_id %>  <%= pet.name %></td>
       <td><%= pet.species_name %></td>
     </tr>
     <% }) %>
